@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="https://thumbs.dreamstime.com/b/old-book-flying-letters-magic-light-background-bookshelf-library-ancient-books-as-symbol-knowledge-history-218640948.jpg">
+    <title>Document</title>
+</head>
+<style>
+  body{
+   background-image:url('https://t3.ftcdn.net/jpg/03/16/86/98/360_F_316869849_oHD2qOXRJlZE2Md6SNv0MtvDcgZyHkfv.jpg');
+   background-repeat: no-repeat; 
+   background-size: cover;
+  }
+</style>
+<body>
+    <center><h1 style="color:black">Book Store</h1></center>
+      <center>
+        <h1 style="color:crimson">SIGN IN</h1>
+        <form action="./imag.html" > 
+        <label for="name" ><b>Student Name:</b></label>
+       <input type="text" name="student name" id="name" placeholder="enter student name" pattern="[a-zA-Z]+" required>
+       <br><br>
+       <label for="course"><b>Student Course:</b></label>
+       <input type="text" name="student name" id="course" placeholder="enter student course" pattern="[a-zA-Z]+" required>
+       <br><br>
+       <label for="email"><b>Email:</b></label>
+       <input type="text" name="email" id="email" placeholder="enter the email" pattern="[a-z0-9/#@*$]+@[a-z][.][a-z]" required>
+       <br><br>
+       <label for="password"><b>Password</b></label>
+       <input type="password" name="password" id="password" placeholder="enter the password" pattern="[A-Za-z0-9]+" required>
+       <br><br>
+       <label for="gender"><b>Gender</b></label>
+       <input type="radio" name="male" id="gender" required>
+       <label for="gender">male</label>
+       <input type="radio" name="female" id="gender" required>
+       <label for="gender">female</label>
+       <br><br>
+       <img src="https://storage.googleapis.com/kaggle-datasets-images/38019/57857/3d95254ee9125616f39a9a0a5298d549/dataset-cover.png?t=2018-07-23-13-55-10" height="50px" width="50px">
+       <label for="otp"><b>OTP:</b></label>
+       <input type="text" name="otp" id="otp" placeholder="OTP" pattern="[a-z0-9]{0,5}" required>
+       <br><br>
+       <label for="submit"><b>Submit</b></label>
+       <input type="submit" id="submit" value="submit" required>
+       </form>
+  </center>
+</body>
+</html>
